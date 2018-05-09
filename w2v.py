@@ -26,6 +26,6 @@ with open("glove.840B.300d.txt","rb") as f1:
 
 #print(total_words)
 print(len(total_words))
-#print(glove)
-#plt.plot(total_words,"ro")
+print(glove)
+plt.plot(total_words,"ro")
 #plt.show()
